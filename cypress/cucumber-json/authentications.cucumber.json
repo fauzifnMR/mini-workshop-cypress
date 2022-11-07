@@ -1,0 +1,69 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Authentication",
+    "line": 1,
+    "id": "authentication",
+    "tags": [],
+    "uri": "authentications.feature",
+    "elements": [
+      {
+        "id": "authentication;as-a-user-can-login-to-the-application",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "As a user can login to the application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged in as Admin",
+            "result": {
+              "status": "passed",
+              "duration": 5384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I Should be on HomePage",
+            "result": {
+              "status": "passed",
+              "duration": 5606000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "SelectorTitle",
+                      "SelectorContains"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "Home Title",
+                      "VISIBLE"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I should EXPECT",
+            "result": {
+              "status": "passed",
+              "duration": 10060000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

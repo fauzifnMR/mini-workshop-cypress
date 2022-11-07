@@ -1,0 +1,14 @@
+{
+    "pageName": "HomePage",
+    "domElements":{
+        "Home Title":
+        {
+            "xpath": "//h6[contains(.,'Dashboard') and contains(@class,'oxd-text')]"
+        }
+    },
+    "API":
+    {
+        "name": "HomePageApi",
+        "endpoint": "https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/dashboard/employees/locations"
+    }
+}
